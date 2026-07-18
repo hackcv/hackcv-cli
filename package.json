@@ -16,7 +16,8 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "commander": "^12.1.0"
@@ -40,6 +41,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cvley/ai.hackcv.git"
+    "url": "git+https://github.com/hackcv/hackcv-cli.git"
   }
 }
