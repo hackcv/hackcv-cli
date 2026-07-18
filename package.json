@@ -1,0 +1,45 @@
+{
+  "name": "hackcv-cli",
+  "version": "0.1.0",
+  "description": "命令行访问 hackcv AI 研究简报：热点(hot)与 LLM 精选推荐(recommend)",
+  "bin": {
+    "hackcv-cli": "./dist/index.js"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "hackcv",
+    "ai",
+    "cli",
+    "research",
+    "llm",
+    "rss"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvley/ai.hackcv.git"
+  }
+}
