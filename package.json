@@ -1,6 +1,6 @@
 {
   "name": "hackcv-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "命令行访问 hackcv AI 研究简报：热点(hot)与 LLM 精选推荐(recommend)",
   "bin": {
     "hackcv-cli": "./dist/index.js"
